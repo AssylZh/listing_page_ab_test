@@ -1,7 +1,6 @@
-"""Build ab_test_results.xlsx: SQL pulls the counts, Excel formulas do the statistics.
+"""Build ab_test_results.xlsx
 
 Run: python make_excel.py
-Open in Excel; change any blue number and everything recalculates.
 """
 import sqlite3
 
